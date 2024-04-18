@@ -21,18 +21,18 @@ Gradio를 이용해 사용자 친화적인 웹 인터페이스를 제공하여 �
 ## Pipeline
 
 <div>
-  <p>1. 설명: 이 단계에서는 사용자가 Gradio에서 Model과 DB종류를 선택하고 질문을 입력한다. 이후 입력에 기반하여 데이터베이스에서 관련 정보를 추출하는 RAG 기술을 사용</p>
   <br/>
+  <p>1. 설명: 이 단계에서는 사용자가 Gradio에서 Model과 DB종류를 선택하고 질문을 입력한다. 이후 입력에 기반하여 데이터베이스에서 관련 정보를 추출하는 RAG 기술을 사용</p>
   <img src="./images/pipeline1.png" alt="Pipeline Step 1">
 </div>
 <div>
-  <p>2. 설명: RAG 기술을 기반으로 추출된 데이터와 함께 프롬프트 엔지니어링을 진행</p>
   <br/>
+  <p>2. 설명: RAG 기술을 기반으로 추출된 데이터와 함께 프롬프트 엔지니어링을 진행</p>
   <img src="./images/pipeline2.png" alt="Pipeline Step 2">
 </div>
 <div>
-  <p>3. 설명: 선택한 모델에 프롬프트를 입력으로 넣고 생성된 문장을 출력한다.</p>
   <br/>
+  <p>3. 설명: 선택한 모델에 프롬프트를 입력으로 넣고 생성된 문장을 출력한다.</p>
   <img src="./images/pipeline3.png" alt="Pipeline Step 3">
 </div>
 
