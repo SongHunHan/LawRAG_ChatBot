@@ -1,0 +1,11 @@
+langchain-chroma
+langchain
+langchain-openai
+langchain-core 
+langchain-community
+transformers==4.37.1
+jq
+sentence-transformers
+ipywidgets
+faiss-gpu
+python-dotenv
