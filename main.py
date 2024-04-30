@@ -35,6 +35,9 @@ def get_vector_store(which_db, which_model):
         print('faiss_db')
     return vector_store
     
+def format_docs(docs):
+    return '\n\n'.join([d.page_content for d in docs])
+    
 def get_retriever_text(message, which_db, which_model):
     vector_store = get_vector_store(which_db, which_model)
     retriever = vector_store.as_retriever()
